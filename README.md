@@ -1,16 +1,34 @@
-# React + Vite
+# Pokédex - Proyecto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado con React y Vite como parte del curso de Programación Front End con IA Aplicada en FWD Costa Rica.
 
-Currently, two official plugins are available:
+## Tecnologías usadas
+- React
+- Vite
+- React Router DOM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Estructura del proyecto
+src/
+├── components/
+│   ├── Boton.jsx
+│   └── Tarjeta.jsx
+├── pages/
+│   ├── Inicio.jsx
+│   ├── Detalle.jsx
+│   └── Contacto.jsx
+├── App.jsx
+└── main.jsx
 
-## React Compiler
+## Funcionalidades
+- Lista de 6 Pokémon con imagen y nombre
+- Navegación a página de detalle de cada Pokémon
+- Rutas con React Router DOM
+- Componentes reutilizables con props
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cómo correr el proyecto
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Autor
+Sebastián Geovanni Flores Miranda
+FWD Costa Rica
